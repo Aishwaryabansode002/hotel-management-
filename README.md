@@ -1,16 +1,40 @@
-## Project Screenshots
+## 📸 Project Screenshots
 
-### Home Page
-![Home Page](screenshots/home.png)
+### 🏠 Home Page
+![Home](screenshots/home1.png)
+![Home](screenshots/home2.png)
+![Home](screenshots/home3.png)
 
-### Rooms Page
-![Rooms Page](screenshots/rooms.png)
+### 🏨 Rooms Page
+![Room](screenshots/room.png)
+![Room](screenshots/room1.png)
 
-### Login Page
-![Login Page](screenshots/login.png)
+### 🎁 Offers Page
+![Offers](screenshots/offers.png)
 
-### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+### 🖼️ Gallery Page
+![Gallery](screenshots/gallery.png)
+![Gallery](screenshots/gallery1.png)
+
+### ℹ️ About Page
+![About](screenshots/about1.png)
+![About](screenshots/about2.png)
+![About](screenshots/about3.png)
+
+### 📞 Contact Page
+![Contact](screenshots/contact.png)
+![Contact](screenshots/contact1.png)
+
+### 🔐 Login Page
+![Login](screenshots/login.png)
+
+### 📝 Registration Page
+![Register](screenshots/registration.png)
+
+### 📷 Additional Screenshots
+![Screenshot](screenshots/Screenshot%20(22).png)
+![Screenshot](screenshots/Screenshot%20(23).png)
+![Screenshot](screenshots/Screenshot%20(24).png)
 # 📁 All Code Files - Separate Files Directory
 
 This directory contains **ALL 30 code files** as separate, individual files with their exact filenames and complete code.
@@ -227,3 +251,4 @@ Refer to:
 
 
 **All 30 files are ready to use! Just copy and start building! 🚀**
+
