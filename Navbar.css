@@ -1,0 +1,208 @@
+/* ===============================
+   ULTRA PREMIUM LUXURY NAVBAR
+   Glass + Glow + Floating Effect
+================================= */
+
+.navbar-luxury {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+  max-width: 1300px;
+  z-index: 1000;
+
+  background: rgba(12, 16, 40, 0.55);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  padding: 1.3rem 2rem;
+  border-radius: 14px;
+  border: 1px solid rgba(212,175,55,0.25);
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.25),
+    inset 0 0 20px rgba(255,255,255,0.04);
+
+  transition: all 0.35s ease;
+
+  /* ⭐ FONT CHANGED ONLY */
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ⭐ Shrink on scroll */
+.navbar-luxury.scrolled {
+  top: 10px;
+  padding: 0.9rem 1.8rem;
+  background: rgba(10,12,28,0.75);
+  box-shadow:
+    0 14px 40px rgba(0,0,0,0.35),
+    0 0 20px rgba(212,175,55,0.15);
+}
+
+/* ===============================
+   BRAND
+================================= */
+
+.navbar-brand {
+  display:flex;
+  align-items:center;
+  gap:0.6rem;
+  font-size:1.9rem;
+  font-weight:700;
+  color:#fff;
+
+  /* ⭐ Times New Roman */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.brand-icon {
+  color:#ffd76a;
+  font-size:2rem;
+  text-shadow:0 0 10px rgba(255,215,120,0.8);
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+
+.navbar-brand:hover .brand-text {
+  color:#ffd76a;
+  text-shadow:0 0 8px rgba(255,215,120,0.7);
+}
+
+/* ===============================
+   LINKS
+================================= */
+
+.navbar-links {
+  display:flex;
+  align-items:center;
+  gap:2.3rem;
+}
+
+.navbar-links > a {
+  color:#ffffff;
+  font-weight:600;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  position:relative;
+  transition:0.3s;
+
+  /* ⭐ Times New Roman */
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* GOLD NEON HOVER */
+.navbar-links > a:hover {
+  color:#ffd76a;
+  text-shadow:
+    0 0 5px #ffd76a,
+    0 0 10px rgba(255,215,120,0.6);
+}
+
+.navbar-links > a::after {
+  content:'';
+  position:absolute;
+  bottom:-5px;
+  left:50%;
+  transform:translateX(-50%);
+  width:0;
+  height:2px;
+  background:linear-gradient(90deg,#ffd76a,#b8962e);
+  transition:0.3s;
+}
+
+.navbar-links > a:hover::after {
+  width:100%;
+}
+
+/* ===============================
+   AUTH BUTTONS
+================================= */
+
+.btn-login {
+  padding:0.7rem 1.4rem;
+  color:#ffd76a;
+  border:2px solid #ffd76a;
+  border-radius:8px;
+  transition:0.3s;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn-login:hover {
+  background:#ffd76a;
+  color:#111;
+  box-shadow:0 0 15px rgba(255,215,120,0.8);
+}
+
+.btn-register {
+  padding:0.7rem 1.4rem;
+  border-radius:8px;
+  background:linear-gradient(135deg,#b8962e,#ffd76a);
+  color:#111;
+  font-weight:700;
+
+  font-family: "Times New Roman", Times, serif;
+
+  box-shadow:
+    0 0 15px rgba(255,215,120,0.5),
+    inset 0 0 8px rgba(255,255,255,0.4);
+}
+
+.btn-register:hover {
+  transform:translateY(-2px);
+  box-shadow:
+    0 0 25px rgba(255,215,120,0.9),
+    0 10px 20px rgba(0,0,0,0.25);
+}
+
+/* ===============================
+   USER BUTTON + DROPDOWN
+================================= */
+
+.user-btn {
+  display:flex;
+  align-items:center;
+  gap:0.6rem;
+  padding:0.6rem 1.2rem;
+  border:2px solid #ffd76a;
+  border-radius:8px;
+  color:#ffd76a;
+  transition:0.3s;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+.user-btn:hover {
+  background:#ffd76a;
+  color:#111;
+  box-shadow:0 0 15px rgba(255,215,120,0.8);
+}
+
+.dropdown-menu {
+  position:absolute;
+  top:calc(100% + 10px);
+  right:0;
+  background:rgba(255,255,255,0.95);
+  backdrop-filter:blur(10px);
+  min-width:220px;
+  border-radius:10px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(-10px);
+  transition:0.3s;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* MOBILE SAME */
+.mobile-menu-toggle {
+  display:none;
+  color:#ffd76a;
+  font-size:1.6rem;
+}
