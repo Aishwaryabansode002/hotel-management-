@@ -1,3 +1,16 @@
+## Project Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Rooms Page
+![Rooms Page](screenshots/rooms.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
 # 📁 All Code Files - Separate Files Directory
 
 This directory contains **ALL 30 code files** as separate, individual files with their exact filenames and complete code.
@@ -211,5 +224,6 @@ Refer to:
 - `README.md` - Complete project documentation
 
 ---
+
 
 **All 30 files are ready to use! Just copy and start building! 🚀**
